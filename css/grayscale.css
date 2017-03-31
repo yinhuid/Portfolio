@@ -137,7 +137,6 @@ a:focus {
 }
 .intro .intro-body .brand-heading {
   font-size: 40px;
-    color:black;
 }
 .intro .intro-body .intro-text {
   font-size: 18px;
@@ -309,4 +308,7 @@ img::selection {
 }
 img::-moz-selection {
   background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
